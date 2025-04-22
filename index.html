@@ -148,7 +148,8 @@
       const input = document.getElementById("inputField").value;
       savedNumber = input;
       document.getElementById("inputScreen").style.display = "none";
-      showSlide(0);
+      currentSlide = 0;
+      showSlide(currentSlide);
     });
 
     startCamera();
